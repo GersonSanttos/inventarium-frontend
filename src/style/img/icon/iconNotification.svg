@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.542" height="100" viewBox="0 0 110.542 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fc5d6d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #fc5d6d;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_28" data-name="Grupo 28" transform="translate(-1890.229 142)">
+    <path id="logo" class="cls-1" d="M72.031,0a9,9,0,0,1,7.812,4.53l20.6,36a9,9,0,0,1,0,8.94l-20.6,36A9,9,0,0,1,72.031,90H30.969a9,9,0,0,1-7.812-4.53l-20.6-36a9,9,0,0,1,0-8.94l20.6-36A9,9,0,0,1,30.969,0Z" transform="translate(1894 -137)"/>
+    <path id="Caminho_48" data-name="Caminho 48" class="cls-1" d="M1910.181-62.778s53.793.955,52.96-1.433c-1.228-3.534-4.125-9.386-9.873-11.922-1.57-28.262-4.262-36.942-20.985-37.1" transform="translate(-0.437 -1.97)"/>
+    <path id="Caminho_49" data-name="Caminho 49" class="cls-1" d="M1937.9-72.79a15.526,15.526,0,0,1,4.854-3.344c1.57-28.262,4.262-36.942,20.985-37.1" transform="translate(-33 -1.97)"/>
+    <circle id="Elipse_7" data-name="Elipse 7" class="cls-2" cx="4.5" cy="4.5" r="4.5" transform="translate(1926 -127)"/>
+  </g>
+</svg>

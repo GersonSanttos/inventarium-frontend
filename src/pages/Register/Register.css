@@ -1,0 +1,109 @@
+#bg {
+  align-items: unset;
+  width: 96vw;
+  height: 94vh;
+  margin: 3vh 2vw 3vh 2vw;
+}
+
+.inputLogin {
+  margin-top: 2vh;
+  height: 50px;
+  padding-left: 20px;
+}
+#divLogoRegister {
+  width: 50%;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+}
+.imgLogo {
+  width: 70px;
+  margin-bottom: 3vh;
+}
+#infoLogin {
+  margin: 3vh 3vw 0px 3vw;
+}
+#divRegister {
+  width: 35%;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 4vw;
+  justify-content: flex-start;
+}
+#divInputs {
+  margin: 1vh 2vw 0px 2vw;
+  display: flex;
+  flex-direction: column;
+}
+#formInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.bttEnviar {
+  height: 50px;
+  background-color: #284748;
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.bttEnviar:hover {
+  background-color: #3c7274;
+}
+#divBtt {
+  margin: 5px 0px;
+}
+h4 {
+  font-size: 10px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+.btts {
+  width: 40%;
+  background-color: #252525;
+  height: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #bg {
+    flex-direction: column;
+    margin: 2vh 2vw 2vh 2vw;
+  }
+  #divRegister {
+    height: 70vh;
+    /* max-height: 550px; */
+    min-height: 30%;
+    width: 100%;
+    padding: 0px;
+  }
+  #divLogoRegister {
+    height: 30vh;
+    width: 100%;
+    margin: 0px;
+  }
+}
+@media (orientation: portrait) {
+  p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #bg {
+    flex-direction: column;
+    margin: 2vh 2vw 2vh 2vw;
+  }
+  #divRegister {
+    height: 70vh;
+    min-height: 30%;
+    width: 100%;
+    padding: 0px;
+  }
+  #divLogoRegister {
+    height: 30vh;
+    width: 100%;
+    margin: 0px;
+  }
+}

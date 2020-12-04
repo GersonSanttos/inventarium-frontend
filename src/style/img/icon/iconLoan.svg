@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.542" height="100" viewBox="0 0 110.542 100">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fc5d6d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <g id="iconLoan" transform="translate(-2205.229 651)">
+    <path id="logo" class="cls-1" d="M72.031,0a9,9,0,0,1,7.812,4.53l20.6,36a9,9,0,0,1,0,8.94l-20.6,36A9,9,0,0,1,72.031,90H30.969a9,9,0,0,1-7.812-4.53l-20.6-36a9,9,0,0,1,0-8.94l20.6-36A9,9,0,0,1,30.969,0Z" transform="translate(2209 -646)"/>
+    <path id="Caminho_49" data-name="Caminho 49" class="cls-2" d="M1979.934-116.219h-56.189v39.088l13.278-20.255-13.278,20.255-13.437-20.255" transform="translate(313 -511.97)"/>
+    <path id="Caminho_50" data-name="Caminho 50" class="cls-2" d="M1936.248-77.656h36.662v-39.088l-13.278,20.255,13.278-20.255,13.437,20.255" transform="translate(293 -494.97)"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.543" height="100" viewBox="0 0 110.543 100">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #4a8cff;
+        stroke-width: 10px;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_26" data-name="Grupo 26" transform="translate(-1890.229 142)">
+    <path id="logo" class="cls-1" d="M72.031,0a9,9,0,0,1,7.812,4.53l20.6,36a9,9,0,0,1,0,8.94l-20.6,36A9,9,0,0,1,72.031,90H30.969a9,9,0,0,1-7.812-4.53l-20.6-36a9,9,0,0,1,0-8.94l20.6-36A9,9,0,0,1,30.969,0Z" transform="translate(1894 -137)"/>
+    <g id="Elipse_5" data-name="Elipse 5" class="cls-2" transform="translate(1912 -129)">
+      <circle class="cls-3" cx="21.5" cy="21.5" r="21.5"/>
+      <circle class="cls-4" cx="21.5" cy="21.5" r="16.5"/>
+    </g>
+    <path id="Subtração_1" data-name="Subtração 1" class="cls-2" d="M-405.233,482.248h0l-40.954-2.576-12.723-21.691a29.45,29.45,0,0,1,10.654-13.652A29.316,29.316,0,0,1-431.34,439a29.316,29.316,0,0,1,11.483,2.318,29.4,29.4,0,0,1,9.377,6.322,29.4,29.4,0,0,1,6.322,9.377A29.316,29.316,0,0,1-401.84,468.5a29.618,29.618,0,0,1-.884,7.2,29.347,29.347,0,0,1-2.508,6.551Z" transform="translate(2364.84 -530)"/>
+  </g>
+</svg>

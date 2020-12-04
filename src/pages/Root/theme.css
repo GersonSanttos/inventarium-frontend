@@ -1,0 +1,124 @@
+/*Tema padrão e comportamento das telas do Inventarium*/
+
+/* #region Fontes */
+@font-face {
+  font-family: ibmplexsams;
+  src: url('../../style/font/IBMPlexSans-Regular.ttf');
+}
+/* #endregion */
+
+/* #region Scroll Personalizada */
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.205);
+  border-radius: 5px;
+  margin: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: #252525bd;
+  border-radius: 5px;
+}
+/* #endregion */
+
+/* #region Configurando bory */
+body {
+  background-image: url(../../style/img/bg.png);
+  background-color: #222828;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: ibmplexsams;
+  overflow: hidden;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: ibmplexsams;
+}
+
+/* #endregion */
+
+/* #region Tema */
+.colorDivTheme {
+  background-color: #1b1b1ba8;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+}
+
+.colorFontTheme {
+  color: rgb(255, 255, 255);
+}
+
+.buttonTheme {
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.buttonTheme:hover {
+  background-color: #000000;
+}
+
+.inputTheme {
+  background-color: #252525 !important;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+.inputTheme:hover {
+  background-color: #000000;
+}
+.inputSearch {
+  border-radius: 5px 0px 0px 5px;
+  width: 70%;
+}
+.buttonSearch {
+  border-radius: 0px 5px 5px 0px;
+  width: 30%;
+}
+#divSearch {
+  justify-content: center;
+  width: 100%;
+}
+
+.tables {
+  width: 100%;
+  text-align: left;
+}
+td,
+th {
+  padding: 6px;
+}
+
+/* #endregion */
+
+/* #region Comportamento de Divs*/
+.divRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.divColumn {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  overflow-y: auto;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+/* #endregion */
+
+.hoverActive:hover {
+  background-color: rgb(19, 19, 19);
+  zoom: 1.1;
+  box-shadow: 0px 0px 15px rgb(20, 20, 20);
+}
+.hoverActive:active {
+  background-color: #284748;
+}

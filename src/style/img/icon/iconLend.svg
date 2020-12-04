@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.542" height="100" viewBox="0 0 110.542 100">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #51f66d;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #51f66d;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_27" data-name="Grupo 27" transform="translate(-1890.229 142)">
+    <path id="logo" class="cls-1" d="M72.031,0a9,9,0,0,1,7.812,4.53l20.6,36a9,9,0,0,1,0,8.94l-20.6,36A9,9,0,0,1,72.031,90H30.969a9,9,0,0,1-7.812-4.53l-20.6-36a9,9,0,0,1,0-8.94l20.6-36A9,9,0,0,1,30.969,0Z" transform="translate(1894 -137)"/>
+    <path id="Caminho_42" data-name="Caminho 42" class="cls-2" d="M25.91,0H0" transform="translate(1917 -85)"/>
+    <path id="Caminho_47" data-name="Caminho 47" class="cls-2" d="M25.91,0H0" transform="translate(1917 -103)"/>
+    <path id="Caminho_46" data-name="Caminho 46" class="cls-1" d="M27.613,70.49V0h-45.8" transform="translate(1931.677 -120.275)"/>
+    <line id="Linha_5" data-name="Linha 5" class="cls-3" x1="9" transform="translate(1933.5 -66.5)"/>
+  </g>
+</svg>

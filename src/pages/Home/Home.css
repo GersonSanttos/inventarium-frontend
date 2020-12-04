@@ -1,0 +1,265 @@
+/* #region Barra de Navegação lateral*/
+#navSide {
+  width: 20vw;
+  min-width: 20vw;
+  height: 100vh;
+}
+/*#endregion */
+
+/* #region Barra de Navegação Lateral*/
+
+/* Logo */
+#navLogo {
+  height: 8vh;
+  padding: 1vh;
+  font-weight: bold;
+  font-size: 2.5vh;
+  justify-content: initial;
+  cursor: pointer;
+}
+
+#imgLogo {
+  height: 60%;
+  margin-right: 1vh;
+  cursor: pointer;
+}
+
+/* opções */
+#navOptions {
+  height: 70vh;
+  border-top: 1px solid rgb(44, 44, 44);
+  justify-content: flex-start;
+}
+#optionBtt {
+  justify-content: initial;
+  margin: 1vh 5px 0px 5px;
+  font-size: 2vh;
+  border-radius: 5px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+#subOptionBtt {
+  padding: 0px 1.5vh;
+  justify-content: initial;
+  margin: 0px 5px 0px 35px;
+  font-size: 1.5vh;
+  border-radius: 5px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  height: 30px;
+  transition-duration: 0.5s;
+}
+.status {
+  border: none;
+  border-radius: 200px;
+  height: 1vh;
+  width: 1vh;
+  background-color: rgb(218, 91, 91);
+  position: absolute;
+  right: 6vh;
+  display: none;
+}
+
+#optionImg {
+  height: 4vh;
+  margin: 1vh;
+}
+
+/* Área do usuário */
+#navUser {
+  height: 6vh;
+  font-size: 2vh;
+  font-weight: lighter;
+  padding: 1vh;
+  justify-content: initial;
+  cursor: pointer;
+}
+#imgUser {
+  height: 80%;
+  border-radius: 50%;
+  border: 2px solid;
+  margin-right: 1vh;
+}
+
+.exitLogo {
+  padding: 2vh;
+  height: 3vh;
+  position: absolute;
+  right: 0.5vh;
+  cursor: pointer;
+}
+/*#endregion */
+
+#divFatherHome {
+  justify-content: space-between;
+  /* height: 100vh;
+  width: 100vw; */
+  overflow: hidden;
+}
+
+/* #region área de dados */
+#dataArea {
+  align-items: unset;
+  width: 80vw;
+  height: 98vh;
+  padding-right: 1vh;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  justify-content: flex-start;
+}
+#infos {
+  padding: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0px 10px 10px;
+  justify-content: flex-start;
+  min-width: 30vw;
+  min-height: 50vh;
+}
+/*#endregion */
+
+/* #region Footer */
+
+#footer {
+  display: none;
+  position: fixed;
+  height: 10vh;
+  max-height: 50px;
+  width: 100%;
+  bottom: 0px;
+  padding: 1vh 0px;
+}
+/* Logo */
+#footerImgLogo {
+  height: 70%;
+  transition-duration: 0.5s;
+}
+
+/* Opções */
+#footerOptions {
+  justify-content: space-evenly;
+  width: 60vw;
+}
+
+#footerOptionBtt {
+  /* padding: 10px; */
+  font-size: 1vh;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  height: 8vh;
+  border-radius: 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+  transition-duration: 0.5s;
+}
+
+#footerOptionImg {
+  height: 60%;
+  margin: 5px 0px;
+  /* margin: 1vh; */
+}
+
+/* Usuário */
+
+#footerUser {
+  padding: 0px 10px;
+  height: 8vh;
+  justify-content: center;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+
+#footerimgUser {
+  height: 60%;
+  border-radius: 50%;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+#footerUser:active .dropDown {
+  display: block;
+}
+#footerUser:hover .dropDown {
+  display: block;
+}
+
+#exitLogoPortrait {
+  position: relative;
+  padding: none;
+  height: 3vh;
+  cursor: pointer;
+}
+.dropDown {
+  background-color: rgb(53, 53, 53);
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  /* height: 30px;
+  width: 30px; */
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.formInputsLoan {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*#endregion */
+
+/*#region Medias */
+@media screen and (max-width: 600px) {
+  #navSide {
+    display: none;
+  }
+  #footer {
+    display: flex;
+  }
+  #dataArea {
+    flex-direction: column;
+    width: 96%;
+    flex-wrap: nowrap;
+    margin-bottom: 70px;
+  }
+  #divFatherHome {
+    flex-direction: column;
+    height: 100vh;
+  }
+  #infos {
+    min-height: 70vh;
+  }
+}
+@media (orientation: portrait) {
+  #navSide {
+    display: none;
+  }
+  #footer {
+    display: flex;
+  }
+
+  #dataArea {
+    flex-direction: column;
+    width: 96%;
+    flex-wrap: nowrap;
+    margin-bottom: 70px;
+  }
+  #divFatherHome {
+    flex-direction: column;
+    height: 100vh;
+  }
+  #infos {
+    min-height: 70vh;
+  }
+}
+
+/*#endregion */

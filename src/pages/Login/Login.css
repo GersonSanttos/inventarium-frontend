@@ -1,0 +1,93 @@
+#bg {
+  align-items: unset;
+  width: 96vw;
+  height: 90vh;
+  margin: 5vh 2vw 5vh 2vw;
+}
+
+.inputLogin {
+  margin-top: 2vh;
+  height: 50px;
+  padding-left: 20px;
+}
+#divLogo {
+  width: 60%;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+}
+.imgLogo {
+  width: 70px;
+  margin-bottom: 3vh;
+}
+#infoLogin {
+  margin: 3vh 3vw 0px 3vw;
+}
+#divLogin {
+  width: 35%;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 4vw;
+}
+#divInputs {
+  margin: 2vh 3vw 0px 3vw;
+  display: flex;
+  flex-direction: column;
+}
+#formInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.bttEnviar {
+  height: 50px;
+  background-color: #284748;
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.bttEnviar:hover {
+  background-color: #3c7274;
+}
+#divBtt {
+  margin: 5px 0px;
+}
+.btts {
+  width: 40%;
+  background-color: #252525;
+  height: 30px;
+}
+@media screen and (max-width: 750px) {
+  #bg {
+    flex-direction: column;
+  }
+  #divLogin {
+    height: 30vh;
+    max-height: 550px;
+    min-height: 30%;
+    width: 100%;
+    padding: 0px;
+    justify-content: space-evenly;
+  }
+  #divLogo {
+    width: 100%;
+    margin: 0px;
+  }
+}
+@media (orientation: portrait) {
+  #bg {
+    flex-direction: column;
+  }
+  #divLogin {
+    height: 30vh;
+    max-height: 550px;
+    min-height: 30%;
+    width: 100%;
+    padding: 0px;
+    justify-content: space-evenly;
+  }
+  #divLogo {
+    width: 100%;
+    margin: 0px;
+  }
+}
